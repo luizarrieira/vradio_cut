@@ -1,0 +1,3489 @@
+{
+  "adv/AD082_ALCOHOLIA.wav": {
+    "file": "adv/AD082_ALCOHOLIA.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 48.272
+    }
+  },
+  "adv/MONO_AD001_LIFE_INVADER.wav": {
+    "file": "adv/MONO_AD001_LIFE_INVADER.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 31.003
+    }
+  },
+  "adv/MONO_AD002_RIGHTEOUS_SLAUGHTER_NUKE.wav": {
+    "file": "adv/MONO_AD002_RIGHTEOUS_SLAUGHTER_NUKE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 27.888
+    }
+  },
+  "adv/MONO_AD003_RIGHTEOUS_SLAUGHTER_RUSSIAN.wav": {
+    "file": "adv/MONO_AD003_RIGHTEOUS_SLAUGHTER_RUSSIAN.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 55.043
+    }
+  },
+  "adv/MONO_AD004_RIGHTEOUS_SLAUGHTER_LEVELS.wav": {
+    "file": "adv/MONO_AD004_RIGHTEOUS_SLAUGHTER_LEVELS.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 48.293
+    }
+  },
+  "adv/MONO_AD005_SA_TOURISM_BOARD.wav": {
+    "file": "adv/MONO_AD005_SA_TOURISM_BOARD.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 51.683
+    }
+  },
+  "adv/MONO_AD006_DESERT_TOURISM.wav": {
+    "file": "adv/MONO_AD006_DESERT_TOURISM.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 36.981
+    }
+  },
+  "adv/MONO_AD007_SA_WATER_POWER.wav": {
+    "file": "adv/MONO_AD007_SA_WATER_POWER.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 34.995
+    }
+  },
+  "adv/MONO_AD008_UP_N_ATOM.wav": {
+    "file": "adv/MONO_AD008_UP_N_ATOM.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 22.793
+    }
+  },
+  "adv/MONO_AD009_PROP_43.wav": {
+    "file": "adv/MONO_AD009_PROP_43.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 32.203
+    }
+  },
+  "adv/MONO_AD010_TOESHOES.wav": {
+    "file": "adv/MONO_AD010_TOESHOES.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 25.13
+    }
+  },
+  "adv/MONO_AD011_IMPLANT_OUTSOURCE.wav": {
+    "file": "adv/MONO_AD011_IMPLANT_OUTSOURCE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 35.363
+    }
+  },
+  "adv/MONO_AD012_DONATE_YOUR_CAR.wav": {
+    "file": "adv/MONO_AD012_DONATE_YOUR_CAR.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 38.31
+    }
+  },
+  "adv/MONO_AD013_RACE_TO_PLUTO.wav": {
+    "file": "adv/MONO_AD013_RACE_TO_PLUTO.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 27.769
+    }
+  },
+  "adv/MONO_AD014_PROP208_DAD.wav": {
+    "file": "adv/MONO_AD014_PROP208_DAD.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 31.071
+    }
+  },
+  "adv/MONO_AD015_PROP208_JUNGLE.wav": {
+    "file": "adv/MONO_AD015_PROP208_JUNGLE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 23.043
+    }
+  },
+  "adv/MONO_AD016_PISSWASSER.wav": {
+    "file": "adv/MONO_AD016_PISSWASSER.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 82.005
+    }
+  },
+  "adv/MONO_AD017_QUEENSBURY_BOXING.wav": {
+    "file": "adv/MONO_AD017_QUEENSBURY_BOXING.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 45.878
+    }
+  },
+  "adv/MONO_AD018_LOTTERY_STARVING_CHILDREN.wav": {
+    "file": "adv/MONO_AD018_LOTTERY_STARVING_CHILDREN.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 23.827
+    }
+  },
+  "adv/MONO_AD019_LOTTERY_REALLY_ADDICTED.wav": {
+    "file": "adv/MONO_AD019_LOTTERY_REALLY_ADDICTED.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 20.621
+    }
+  },
+  "adv/MONO_AD020_WHIZ_WIRLESS.wav": {
+    "file": "adv/MONO_AD020_WHIZ_WIRLESS.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 39.722
+    }
+  },
+  "adv/MONO_AD021_RECTIFY_HOLISTIC.wav": {
+    "file": "adv/MONO_AD021_RECTIFY_HOLISTIC.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 45.614
+    }
+  },
+  "adv/MONO_AD022_BAIL_BONDS.wav": {
+    "file": "adv/MONO_AD022_BAIL_BONDS.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 39.133
+    }
+  },
+  "adv/MONO_AD023_OVINE_HUMAN_RESOURCES.wav": {
+    "file": "adv/MONO_AD023_OVINE_HUMAN_RESOURCES.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 47.153
+    }
+  },
+  "adv/MONO_AD024_PROPOSITION_14.wav": {
+    "file": "adv/MONO_AD024_PROPOSITION_14.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 33.902
+    }
+  },
+  "adv/MONO_AD025_PIC_OFFICER.wav": {
+    "file": "adv/MONO_AD025_PIC_OFFICER.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 36.897
+    }
+  },
+  "adv/MONO_AD026_PIC_FRANCHISE.wav": {
+    "file": "adv/MONO_AD026_PIC_FRANCHISE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 66.302
+    }
+  },
+  "adv/MONO_AD027_SA_LABOTOMY.wav": {
+    "file": "adv/MONO_AD027_SA_LABOTOMY.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 37.003
+    }
+  },
+  "adv/MONO_AD028_DARWINIAN_YOGA.wav": {
+    "file": "adv/MONO_AD028_DARWINIAN_YOGA.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 39.297
+    }
+  },
+  "adv/MONO_AD029_GASTRO_BAND.wav": {
+    "file": "adv/MONO_AD029_GASTRO_BAND.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 57.25
+    }
+  },
+  "adv/MONO_AD030_ECONOMIC_RECOVERY_GROUP.wav": {
+    "file": "adv/MONO_AD030_ECONOMIC_RECOVERY_GROUP.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 33.14
+    }
+  },
+  "adv/MONO_AD031_REHAB_ISLAND.wav": {
+    "file": "adv/MONO_AD031_REHAB_ISLAND.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 47.075
+    }
+  },
+  "adv/MONO_AD032_LARRYS_RV_SALES.wav": {
+    "file": "adv/MONO_AD032_LARRYS_RV_SALES.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 51.275
+    }
+  },
+  "adv/MONO_AD033_NIGHT_LIGHTS.wav": {
+    "file": "adv/MONO_AD033_NIGHT_LIGHTS.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 51.729
+    }
+  },
+  "adv/MONO_AD034_HEAD_SHOTS.wav": {
+    "file": "adv/MONO_AD034_HEAD_SHOTS.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 61.903
+    }
+  },
+  "adv/MONO_AD035_ELECTROTOKE.wav": {
+    "file": "adv/MONO_AD035_ELECTROTOKE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 47.763
+    }
+  },
+  "adv/MONO_AD036_TOILET_CLEANER.wav": {
+    "file": "adv/MONO_AD036_TOILET_CLEANER.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 28.073
+    }
+  },
+  "adv/MONO_AD037_STOP_PAYING_MORTGAGE.wav": {
+    "file": "adv/MONO_AD037_STOP_PAYING_MORTGAGE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 42.105
+    }
+  },
+  "adv/MONO_AD038_FLOYDS_SCRAP_METAL.wav": {
+    "file": "adv/MONO_AD038_FLOYDS_SCRAP_METAL.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 51.881
+    }
+  },
+  "adv/MONO_AD039_BUDDYS_TRUCKING.wav": {
+    "file": "adv/MONO_AD039_BUDDYS_TRUCKING.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 49.369
+    }
+  },
+  "adv/MONO_AD040_FLEECA_INTEREST_FEES.wav": {
+    "file": "adv/MONO_AD040_FLEECA_INTEREST_FEES.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 41.059
+    }
+  },
+  "adv/MONO_AD041_FLEECA_BEDROOM.wav": {
+    "file": "adv/MONO_AD041_FLEECA_BEDROOM.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 44.317
+    }
+  },
+  "adv/MONO_AD042_SHARK.wav": {
+    "file": "adv/MONO_AD042_SHARK.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 45.216
+    }
+  },
+  "adv/MONO_AD043_SMOKED_DREAMS.wav": {
+    "file": "adv/MONO_AD043_SMOKED_DREAMS.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 60.738
+    }
+  },
+  "adv/MONO_AD044_HIPSTERS_FOR_HIRE.wav": {
+    "file": "adv/MONO_AD044_HIPSTERS_FOR_HIRE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 54.274
+    }
+  },
+  "adv/MONO_AD045_PRESERVEX.wav": {
+    "file": "adv/MONO_AD045_PRESERVEX.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 39.297
+    }
+  },
+  "adv/MONO_AD046_DONS_COUNTRY_STORE.wav": {
+    "file": "adv/MONO_AD046_DONS_COUNTRY_STORE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 42.425
+    }
+  },
+  "adv/MONO_AD047_PROPOSITION_45.wav": {
+    "file": "adv/MONO_AD047_PROPOSITION_45.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 48.501
+    }
+  },
+  "adv/MONO_AD048_WINDSOR_IMMIGRANT.wav": {
+    "file": "adv/MONO_AD048_WINDSOR_IMMIGRANT.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 40.971
+    }
+  },
+  "adv/MONO_AD049_WINDSOR_SWINGER_GROTTO.wav": {
+    "file": "adv/MONO_AD049_WINDSOR_SWINGER_GROTTO.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 58.424
+    }
+  },
+  "adv/MONO_AD050_CUCKOLD_THERAPHY.wav": {
+    "file": "adv/MONO_AD050_CUCKOLD_THERAPHY.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 60.468
+    }
+  },
+  "adv/MONO_AD051_DIGIFARM_DAUGHTER.wav": {
+    "file": "adv/MONO_AD051_DIGIFARM_DAUGHTER.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 47.389
+    }
+  },
+  "adv/MONO_AD052_DIGIFARM_OTHER_GAMES.wav": {
+    "file": "adv/MONO_AD052_DIGIFARM_OTHER_GAMES.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 54.645
+    }
+  },
+  "adv/MONO_AD053_BLAINE_COUNTY_BANK.wav": {
+    "file": "adv/MONO_AD053_BLAINE_COUNTY_BANK.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 32.041
+    }
+  },
+  "adv/MONO_AD054_LOMBANK.wav": {
+    "file": "adv/MONO_AD054_LOMBANK.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 61.527
+    }
+  },
+  "adv/MONO_AD055_HITTING_KIDS_WORKS_WONDERS.wav": {
+    "file": "adv/MONO_AD055_HITTING_KIDS_WORKS_WONDERS.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 40.916
+    }
+  },
+  "adv/MONO_AD056_VINEWOOD_HEALTH.wav": {
+    "file": "adv/MONO_AD056_VINEWOOD_HEALTH.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 56.997
+    }
+  },
+  "adv/MONO_AD057_BENDERS_WANKER.wav": {
+    "file": "adv/MONO_AD057_BENDERS_WANKER.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 48.855
+    }
+  },
+  "adv/MONO_AD058_BENDERS_PIES.wav": {
+    "file": "adv/MONO_AD058_BENDERS_PIES.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 55.531
+    }
+  },
+  "adv/MONO_AD059_YOUTOOL.wav": {
+    "file": "adv/MONO_AD059_YOUTOOL.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 53.663
+    }
+  },
+  "adv/MONO_AD060_AMUNATION_GARDENING.wav": {
+    "file": "adv/MONO_AD060_AMUNATION_GARDENING.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 69.845
+    }
+  },
+  "adv/MONO_AD061_AMUNATION_APOCOLYPSE.wav": {
+    "file": "adv/MONO_AD061_AMUNATION_APOCOLYPSE.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 79.947
+    }
+  },
+  "adv/MONO_AD062_FLOW_WATER.wav": {
+    "file": "adv/MONO_AD062_FLOW_WATER.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 50.06
+    }
+  },
+  "adv/MONO_AD063_SEX_ADDICTION_OPPORTUNITY.wav": {
+    "file": "adv/MONO_AD063_SEX_ADDICTION_OPPORTUNITY.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 58.19
+    }
+  },
+  "adv/MONO_AD064_SERIOUS_COUGAR.wav": {
+    "file": "adv/MONO_AD064_SERIOUS_COUGAR.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 28.179
+    }
+  },
+  "adv/MONO_AD065_CLOUD_COMPUTING.wav": {
+    "file": "adv/MONO_AD065_CLOUD_COMPUTING.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 64.554
+    }
+  },
+  "adv/MONO_AD067_PRIDE_PREJ_GRAIN_ALCOHOL.wav": {
+    "file": "adv/MONO_AD067_PRIDE_PREJ_GRAIN_ALCOHOL.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 47.819
+    }
+  },
+  "adv/MONO_AD068_PRIDE_PREJ_TORNADO.wav": {
+    "file": "adv/MONO_AD068_PRIDE_PREJ_TORNADO.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 57.69
+    }
+  },
+  "adv/MONO_AD069_HITTING_KIDS_POT.wav": {
+    "file": "adv/MONO_AD069_HITTING_KIDS_POT.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 22.803
+    }
+  },
+  "adv/MONO_AD070_HAMMERSTEIN_FAUST.wav": {
+    "file": "adv/MONO_AD070_HAMMERSTEIN_FAUST.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 42.557
+    }
+  },
+  "adv/MONO_AD071_GRAIN_OF_TRUTH.wav": {
+    "file": "adv/MONO_AD071_GRAIN_OF_TRUTH.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 61.415
+    }
+  },
+  "adv/MONO_AD072_FLY_US_CHOICE.wav": {
+    "file": "adv/MONO_AD072_FLY_US_CHOICE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 19.136
+    }
+  },
+  "adv/MONO_AD073_FLY_US_DRUNK.wav": {
+    "file": "adv/MONO_AD073_FLY_US_DRUNK.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 15.365
+    }
+  },
+  "adv/MONO_AD074_FLY_US_PLANES.wav": {
+    "file": "adv/MONO_AD074_FLY_US_PLANES.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 18.857
+    }
+  },
+  "adv/MONO_AD075_REFINANCE_LS_COMMERCE.wav": {
+    "file": "adv/MONO_AD075_REFINANCE_LS_COMMERCE.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 57.621
+    }
+  },
+  "adv/MONO_AD076_REBRANDING_JERKING.wav": {
+    "file": "adv/MONO_AD076_REBRANDING_JERKING.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 57.189
+    }
+  },
+  "adv/MONO_AD077_REBRANDING_ABYSS.wav": {
+    "file": "adv/MONO_AD077_REBRANDING_ABYSS.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 43.708
+    }
+  },
+  "adv/MONO_AD078_SEX_ADDICT_DROWNING.wav": {
+    "file": "adv/MONO_AD078_SEX_ADDICT_DROWNING.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 22.182
+    }
+  },
+  "adv/MONO_AD079_SEX_ADDICT_TRAIN.wav": {
+    "file": "adv/MONO_AD079_SEX_ADDICT_TRAIN.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 26.798
+    }
+  },
+  "adv/MONO_AD080_SEX_MANOPAUSE.wav": {
+    "file": "adv/MONO_AD080_SEX_MANOPAUSE.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 68.061
+    }
+  },
+  "adv/MONO_AD081_MMA.wav": {
+    "file": "adv/MONO_AD081_MMA.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 39.623
+    }
+  },
+  "adv/MONO_AD083_EGOCHASER.wav": {
+    "file": "adv/MONO_AD083_EGOCHASER.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 50.514
+    }
+  },
+  "adv/MONO_AD084_CHAINS_INTMACY_THROB.wav": {
+    "file": "adv/MONO_AD084_CHAINS_INTMACY_THROB.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 34.752
+    }
+  },
+  "adv/MONO_AD085_CHAINS_INTMACY_DIAMONDS.wav": {
+    "file": "adv/MONO_AD085_CHAINS_INTMACY_DIAMONDS.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 46.301
+    }
+  },
+  "adv/MONO_AD086_BRAVADO_FARMS.wav": {
+    "file": "adv/MONO_AD086_BRAVADO_FARMS.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 61.369
+    }
+  },
+  "adv/MONO_AD087_BRAVADO_CRUISE_CONTROL.wav": {
+    "file": "adv/MONO_AD087_BRAVADO_CRUISE_CONTROL.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 31.547
+    }
+  },
+  "adv/MONO_AD088_SA_FLIGHT_SCHOOL.wav": {
+    "file": "adv/MONO_AD088_SA_FLIGHT_SCHOOL.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 54.453
+    }
+  },
+  "adv/MONO_AD089_CREVIS_NATURE_REVISED.wav": {
+    "file": "adv/MONO_AD089_CREVIS_NATURE_REVISED.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 40.649
+    }
+  },
+  "adv/MONO_AD090_CREVIS_EVEREST.wav": {
+    "file": "adv/MONO_AD090_CREVIS_EVEREST.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 37.424
+    }
+  },
+  "adv/MONO_AD091_EPSILON_ANTARTICA.wav": {
+    "file": "adv/MONO_AD091_EPSILON_ANTARTICA.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 24.701
+    }
+  },
+  "adv/MONO_AD092_EPSILON_FAMOUS_PEOPLE.wav": {
+    "file": "adv/MONO_AD092_EPSILON_FAMOUS_PEOPLE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 27.456
+    }
+  },
+  "adv/MONO_AD093_SEX_ADDICTION_VICTIM.wav": {
+    "file": "adv/MONO_AD093_SEX_ADDICTION_VICTIM.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 24.763
+    }
+  },
+  "adv/MONO_AD094_PONTIUS.wav": {
+    "file": "adv/MONO_AD094_PONTIUS.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 50.768
+    }
+  },
+  "adv/MONO_AD095_SUE_MURRY.wav": {
+    "file": "adv/MONO_AD095_SUE_MURRY.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 43.925
+    }
+  },
+  "adv/MONO_AD096_JOCK_CRANLEY1.wav": {
+    "file": "adv/MONO_AD096_JOCK_CRANLEY1.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 55.584
+    }
+  },
+  "adv/MONO_AD097_JOCK_CRANLEY2.wav": {
+    "file": "adv/MONO_AD097_JOCK_CRANLEY2.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 44.707
+    }
+  },
+  "news/MONO_NEWS_01.wav": {
+    "file": "news/MONO_NEWS_01.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_02.wav": {
+    "file": "news/MONO_NEWS_02.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_03.wav": {
+    "file": "news/MONO_NEWS_03.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_04.wav": {
+    "file": "news/MONO_NEWS_04.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_05.wav": {
+    "file": "news/MONO_NEWS_05.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_06.wav": {
+    "file": "news/MONO_NEWS_06.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_07.wav": {
+    "file": "news/MONO_NEWS_07.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_08.wav": {
+    "file": "news/MONO_NEWS_08.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_09.wav": {
+    "file": "news/MONO_NEWS_09.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_10.wav": {
+    "file": "news/MONO_NEWS_10.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_100.wav": {
+    "file": "news/MONO_NEWS_100.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_101.wav": {
+    "file": "news/MONO_NEWS_101.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_102.wav": {
+    "file": "news/MONO_NEWS_102.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_103.wav": {
+    "file": "news/MONO_NEWS_103.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_104.wav": {
+    "file": "news/MONO_NEWS_104.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_105.wav": {
+    "file": "news/MONO_NEWS_105.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_106.wav": {
+    "file": "news/MONO_NEWS_106.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_107.wav": {
+    "file": "news/MONO_NEWS_107.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_108.wav": {
+    "file": "news/MONO_NEWS_108.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_109.wav": {
+    "file": "news/MONO_NEWS_109.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_11.wav": {
+    "file": "news/MONO_NEWS_11.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_110.wav": {
+    "file": "news/MONO_NEWS_110.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_111.wav": {
+    "file": "news/MONO_NEWS_111.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_112.wav": {
+    "file": "news/MONO_NEWS_112.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_113.wav": {
+    "file": "news/MONO_NEWS_113.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_114.wav": {
+    "file": "news/MONO_NEWS_114.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_115.wav": {
+    "file": "news/MONO_NEWS_115.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_116.wav": {
+    "file": "news/MONO_NEWS_116.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_117.wav": {
+    "file": "news/MONO_NEWS_117.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_118.wav": {
+    "file": "news/MONO_NEWS_118.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_119.wav": {
+    "file": "news/MONO_NEWS_119.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_12.wav": {
+    "file": "news/MONO_NEWS_12.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_120.wav": {
+    "file": "news/MONO_NEWS_120.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_121.wav": {
+    "file": "news/MONO_NEWS_121.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_122.wav": {
+    "file": "news/MONO_NEWS_122.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_123.wav": {
+    "file": "news/MONO_NEWS_123.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_13.wav": {
+    "file": "news/MONO_NEWS_13.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_14.wav": {
+    "file": "news/MONO_NEWS_14.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_15.wav": {
+    "file": "news/MONO_NEWS_15.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_16.wav": {
+    "file": "news/MONO_NEWS_16.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_17.wav": {
+    "file": "news/MONO_NEWS_17.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_18.wav": {
+    "file": "news/MONO_NEWS_18.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_19.wav": {
+    "file": "news/MONO_NEWS_19.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_20.wav": {
+    "file": "news/MONO_NEWS_20.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_21.wav": {
+    "file": "news/MONO_NEWS_21.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_22.wav": {
+    "file": "news/MONO_NEWS_22.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_23.wav": {
+    "file": "news/MONO_NEWS_23.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_24.wav": {
+    "file": "news/MONO_NEWS_24.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_25.wav": {
+    "file": "news/MONO_NEWS_25.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_26.wav": {
+    "file": "news/MONO_NEWS_26.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_27.wav": {
+    "file": "news/MONO_NEWS_27.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_28.wav": {
+    "file": "news/MONO_NEWS_28.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_29.wav": {
+    "file": "news/MONO_NEWS_29.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_30.wav": {
+    "file": "news/MONO_NEWS_30.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_31.wav": {
+    "file": "news/MONO_NEWS_31.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_32.wav": {
+    "file": "news/MONO_NEWS_32.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_33.wav": {
+    "file": "news/MONO_NEWS_33.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_34.wav": {
+    "file": "news/MONO_NEWS_34.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_35.wav": {
+    "file": "news/MONO_NEWS_35.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_36.wav": {
+    "file": "news/MONO_NEWS_36.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_37.wav": {
+    "file": "news/MONO_NEWS_37.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_38.wav": {
+    "file": "news/MONO_NEWS_38.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_39.wav": {
+    "file": "news/MONO_NEWS_39.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_40.wav": {
+    "file": "news/MONO_NEWS_40.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_41.wav": {
+    "file": "news/MONO_NEWS_41.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_42.wav": {
+    "file": "news/MONO_NEWS_42.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_43.wav": {
+    "file": "news/MONO_NEWS_43.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_44.wav": {
+    "file": "news/MONO_NEWS_44.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_45.wav": {
+    "file": "news/MONO_NEWS_45.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_46.wav": {
+    "file": "news/MONO_NEWS_46.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_47.wav": {
+    "file": "news/MONO_NEWS_47.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_48.wav": {
+    "file": "news/MONO_NEWS_48.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_49.wav": {
+    "file": "news/MONO_NEWS_49.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_50.wav": {
+    "file": "news/MONO_NEWS_50.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_51.wav": {
+    "file": "news/MONO_NEWS_51.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_52.wav": {
+    "file": "news/MONO_NEWS_52.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_53.wav": {
+    "file": "news/MONO_NEWS_53.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_54.wav": {
+    "file": "news/MONO_NEWS_54.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_55.wav": {
+    "file": "news/MONO_NEWS_55.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_56.wav": {
+    "file": "news/MONO_NEWS_56.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_57.wav": {
+    "file": "news/MONO_NEWS_57.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_58.wav": {
+    "file": "news/MONO_NEWS_58.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_59.wav": {
+    "file": "news/MONO_NEWS_59.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_60.wav": {
+    "file": "news/MONO_NEWS_60.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_61.wav": {
+    "file": "news/MONO_NEWS_61.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_62.wav": {
+    "file": "news/MONO_NEWS_62.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_63.wav": {
+    "file": "news/MONO_NEWS_63.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_64.wav": {
+    "file": "news/MONO_NEWS_64.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_81.wav": {
+    "file": "news/MONO_NEWS_81.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_82.wav": {
+    "file": "news/MONO_NEWS_82.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_83.wav": {
+    "file": "news/MONO_NEWS_83.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_84.wav": {
+    "file": "news/MONO_NEWS_84.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_85.wav": {
+    "file": "news/MONO_NEWS_85.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_86.wav": {
+    "file": "news/MONO_NEWS_86.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_87.wav": {
+    "file": "news/MONO_NEWS_87.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_88.wav": {
+    "file": "news/MONO_NEWS_88.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_89.wav": {
+    "file": "news/MONO_NEWS_89.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_90.wav": {
+    "file": "news/MONO_NEWS_90.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_91.wav": {
+    "file": "news/MONO_NEWS_91.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_92.wav": {
+    "file": "news/MONO_NEWS_92.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_93.wav": {
+    "file": "news/MONO_NEWS_93.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_94.wav": {
+    "file": "news/MONO_NEWS_94.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_95.wav": {
+    "file": "news/MONO_NEWS_95.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_96.wav": {
+    "file": "news/MONO_NEWS_96.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_97.wav": {
+    "file": "news/MONO_NEWS_97.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_98.wav": {
+    "file": "news/MONO_NEWS_98.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "news/MONO_NEWS_99.wav": {
+    "file": "news/MONO_NEWS_99.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible"
+  },
+  "RADIO_18_90S_ROCK/musicas/ANSWER_TO_YOURSELF.wav": {
+    "file": "RADIO_18_90S_ROCK/musicas/ANSWER_TO_YOURSELF.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 193.28
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/BLACK_GREASE.wav": {
+    "file": "RADIO_18_90S_ROCK/musicas/BLACK_GREASE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 221.056
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/CALIFORNIA_GIRLS.wav": {
+    "file": "RADIO_18_90S_ROCK/musicas/CALIFORNIA_GIRLS.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 159.811
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/COCAINE.wav": {
+    "file": "RADIO_18_90S_ROCK/musicas/COCAINE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 172.288
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/CRAWLING_AFTER_YOU.wav": {
+    "file": "RADIO_18_90S_ROCK/musicas/CRAWLING_AFTER_YOU.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 205.909
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/DIDDY_WAH_DIDDY.wav": {
+    "file": "RADIO_18_90S_ROCK/musicas/DIDDY_WAH_DIDDY.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 129.657
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/FALL_IN_LINE.wav": {
+    "file": "RADIO_18_90S_ROCK/musicas/FALL_IN_LINE.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 177.728
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/FIRE_DOESNT_BURN_ITSELF.wav": {
+    "file": "RADIO_18_90S_ROCK/musicas/FIRE_DOESNT_BURN_ITSELF.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 229.195
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/GONE_FOR_GOOD.wav": {
+    "file": "RADIO_18_90S_ROCK/musicas/GONE_FOR_GOOD.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 103.115
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/HYSTERIA.wav": {
+    "file": "RADIO_18_90S_ROCK/musicas/HYSTERIA.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 144.747
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/NEXT_STOP.wav": {
+    "file": "RADIO_18_90S_ROCK/musicas/NEXT_STOP.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 149.248
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/NINE_IS_GOD.wav": {
+    "file": "RADIO_18_90S_ROCK/musicas/NINE_IS_GOD.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 207.776
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/SIXPACK.wav": {
+    "file": "RADIO_18_90S_ROCK/musicas/SIXPACK.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 149.461
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/SLEEPWALKER.wav": {
+    "file": "RADIO_18_90S_ROCK/musicas/SLEEPWALKER.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 209.472
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/THE_DREAM.wav": {
+    "file": "RADIO_18_90S_ROCK/musicas/THE_DREAM.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 213.76
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/THIS_MYSTIC_DECADE.wav": {
+    "file": "RADIO_18_90S_ROCK/musicas/THIS_MYSTIC_DECADE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 181.75
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/TURN_IT_AROUND.wav": {
+    "file": "RADIO_18_90S_ROCK/musicas/TURN_IT_AROUND.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 234.379
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/USED_BLOOD.wav": {
+    "file": "RADIO_18_90S_ROCK/musicas/USED_BLOOD.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 144.128
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/WET_BLANKET.wav": {
+    "file": "RADIO_18_90S_ROCK/musicas/WET_BLANKET.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 199.87
+    }
+  },
+  "RADIO_18_90S_ROCK/musicas/WHO_NEEDS_YOU.wav": {
+    "file": "RADIO_18_90S_ROCK/musicas/WHO_NEEDS_YOU.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 192.469
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/ID_01.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/ID_01.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 6.755
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/ID_02.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/ID_02.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 9.627
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/ID_03.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/ID_03.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 7.695
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/ID_04.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/ID_04.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 7.25
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/ID_05.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/ID_05.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 5.375
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/ID_06.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/ID_06.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 12.917
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/ID_07.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/ID_07.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 7.203
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/ID_08.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/ID_08.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 8.555
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/ID_09.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/ID_09.wav",
+    "fusionStartType": "none",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 5.685
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_01.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_01.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 26.976
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_02.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_02.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 17.023
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_03.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_03.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 13.585
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_04.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_04.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 23.295
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_05.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_05.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 21.478
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_06.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_06.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 19.902
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_07.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_07.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 10.385
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_08.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_08.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 15.752
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_09.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_09.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 22.501
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_10.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_10.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 22.979
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_11.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_11.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 21.669
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_12.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_12.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 13.057
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_13.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_13.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 14.005
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_14.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_14.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 14.019
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_15.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_15.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 18.24
+    }
+  },
+  "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_16.wav": {
+    "file": "RADIO_18_90S_ROCK/narracoes/MONO_SOLO_16.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 16.133
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/ALWAYS.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/ALWAYS.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 209.237
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/BOOGIE_IN_ZERO_GRAVITY.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/BOOGIE_IN_ZERO_GRAVITY.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 220.245
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/CHANGE_OF_COAST.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/CHANGE_OF_COAST.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 184.562
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/COLOURS.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/COLOURS.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 205.195
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/CRYSTALFILM.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/CRYSTALFILM.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 231.125
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/DARK_MATTER.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/DARK_MATTER.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 197.056
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/DONT_COME_CLOSE.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/DONT_COME_CLOSE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 184.363
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/DO_YOU_BELIEVE.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/DO_YOU_BELIEVE.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 215.979
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/FEEL_THE_SAME.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/FEEL_THE_SAME.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 201.899
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/FLUTES.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/FLUTES.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 237.781
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/FORGET.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/FORGET.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 220.032
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/FROM_NOWHERE.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/FROM_NOWHERE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 218.368
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/HEARTBREAK.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/HEARTBREAK.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 217.179
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/HEART_IN_THE_PIPES.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/HEART_IN_THE_PIPES.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 223.872
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/HIGH_PRESSURE.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/HIGH_PRESSURE.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 185.779
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/HOLD_ON_HOLY_GHOST.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/HOLD_ON_HOLY_GHOST.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 347.515
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/IN_REAL_LIFE.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/IN_REAL_LIFE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 204.404
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/JASMINE.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/JASMINE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 216.853
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/LITTLE_WHITE_LIE.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/LITTLE_WHITE_LIE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 173.92
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/LIVING_IN_AMERICA.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/LIVING_IN_AMERICA.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 183.269
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/LUCKY_BOY.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/LUCKY_BOY.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 207.36
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/MESMERIZED.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/MESMERIZED.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 214.161
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/NEW_BEAT.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/NEW_BEAT.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 239.581
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/NOWHERE_TO_GO.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/NOWHERE_TO_GO.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 203.029
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/OLD_LOVE.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/OLD_LOVE.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 224.299
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/ONE_GIRL_ONE_BOY.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/ONE_GIRL_ONE_BOY.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 198.279
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/O_N_E.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/O_N_E.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 261.082
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/PHARAOHS.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/PHARAOHS.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 212.752
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/POLISH_GIRL.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/POLISH_GIRL.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 262.021
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/PSYCHIC_CITY.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/PSYCHIC_CITY.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 204.245
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/SHINE_A_LIGHT.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/SHINE_A_LIGHT.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 229.931
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/SHOOTING_HOLES.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/SHOOTING_HOLES.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 185.931
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/SLEEPWALKING.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/SLEEPWALKING.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 198.123
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/SOMETIMES.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/SOMETIMES.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 215.179
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/SO_MANY_DETAILS.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/SO_MANY_DETAILS.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 225.781
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/STRANGERS_IN_THE_WIND.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/STRANGERS_IN_THE_WIND.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 253.888
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/THE_DRUMMER.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/THE_DRUMMER.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 209.984
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/THE_SET_UP.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/THE_SET_UP.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 209.509
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/TRULY_ALIVE.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/TRULY_ALIVE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 264.944
+    }
+  },
+  "RADIO_16_SILVERLAKE/musicas/WHEN_YOURE_OUT.wav": {
+    "file": "RADIO_16_SILVERLAKE/musicas/WHEN_YOURE_OUT.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 263.829
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_01.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_01.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 11.979
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_02.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_02.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 6.312
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_03.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_03.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 9.49
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_04.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_04.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 6.115
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_05.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_05.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 5.958
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_06.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_06.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 11.38
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_07.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_07.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 11.77
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_08.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_08.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 11.467
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_09.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_09.wav",
+    "fusionStartType": "none",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 4.904
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_10.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_10.wav",
+    "fusionStartType": "none",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.177
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_11.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_11.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 7.802
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_12.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_12.wav",
+    "fusionStartType": "none",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 6.133
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/ID_13.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/ID_13.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.377
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_01.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_01.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 22.651
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_02.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_02.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 24.043
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_03.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_03.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 31.216
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_04.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_04.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 27.925
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_05.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_05.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 24.789
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_06.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_06.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 18.011
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_07.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_07.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 12.843
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_08.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_08.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 23.299
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_09.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_09.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 20.88
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_10.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_10.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 21.799
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_11.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_11.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 33.141
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_12.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_12.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 24.555
+    }
+  },
+  "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_13.wav": {
+    "file": "RADIO_16_SILVERLAKE/narracoes/MONO_SOLO_13.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 25.947
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/ALL_THE_THINGS_SHE_SAID.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/ALL_THE_THINGS_SHE_SAID.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 249.492
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/BAKER_STREET.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/BAKER_STREET.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 329.131
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/BIG_LOG.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/BIG_LOG.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 210.983
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/BLACK_VELVET.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/BLACK_VELVET.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 266.837
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/BURNING_HEART.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/BURNING_HEART.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 218.304
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/CARRY_ON_MY_WAYWARD_SUN.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/CARRY_ON_MY_WAYWARD_SUN.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 314.36
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/CATS_IN_THE_CRADLE.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/CATS_IN_THE_CRADLE.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 219.499
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/CIRCLE_IN_THE_SAND.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/CIRCLE_IN_THE_SAND.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 223.277
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/COMING_ON_STRONG.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/COMING_ON_STRONG.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 210.375
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/DANGER_ZONE.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/DANGER_ZONE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 204.203
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/DIRTY_WHITE_BOY.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/DIRTY_WHITE_BOY.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 207.061
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/FORTUNATE_SON.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/FORTUNATE_SON.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 129.216
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/GIMME_ALL_YOUR_LOVIN.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/GIMME_ALL_YOUR_LOVIN.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 183.403
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/HEARTBEAT.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/HEARTBEAT.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 203.183
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/HIGHER_LOVE.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/HIGHER_LOVE.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 269.344
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/HOLLYWOOD_NIGHTS.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/HOLLYWOOD_NIGHTS.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 222.766
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/IF_YOU_LEAVE_ME_NOW.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/IF_YOU_LEAVE_ME_NOW.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 200.087
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/IM_FREE.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/IM_FREE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 204.011
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/I_CANT_WAIT.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/I_CANT_WAIT.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 253.877
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/I_DONT_CARE_ANYMORE.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/I_DONT_CARE_ANYMORE.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 300.949
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/I_WOULDNT_WANT_TO_BE.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/I_WOULDNT_WANT_TO_BE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 190.352
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/LONELY_IS_THE_NIGHT.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/LONELY_IS_THE_NIGHT.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 220.721
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/MISSISSIPPI_QUEEN.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/MISSISSIPPI_QUEEN.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 148.605
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/NIGHT_MOVES.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/NIGHT_MOVES.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 251.285
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/OGDENS_NUT_GONE_FLAKE.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/OGDENS_NUT_GONE_FLAKE.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 140.149
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/PEACE_OF_MIND.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/PEACE_OF_MIND.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 266.331
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/PHOTOGRAPH.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/PHOTOGRAPH.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 216.597
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/RADIO_GA_GA.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/RADIO_GA_GA.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 278.613
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/RAIN.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/RAIN.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 222.016
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/ROCKIN_ME.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/ROCKIN_ME.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 171.755
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/ROUNDABOUT.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/ROUNDABOUT.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 506.293
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/SATURDAY_NIGHTS_ALRIGHT.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/SATURDAY_NIGHTS_ALRIGHT.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 221.686
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/SHADOWS_OF_THE_NIGHT.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/SHADOWS_OF_THE_NIGHT.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 211.269
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/THE_BREAKUP_SONG.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/THE_BREAKUP_SONG.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 154.618
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/THIRTY_DAYS_IN_THE_HOLE.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/THIRTY_DAYS_IN_THE_HOLE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 191.829
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/TOO_LATE_FOR_GOODBYES.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/TOO_LATE_FOR_GOODBYES.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 187.556
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/WE_BUILT_THIS_CITY.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/WE_BUILT_THIS_CITY.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 276.422
+    }
+  },
+  "RADIO_01_CLASS_ROCK/musicas/WHAT_A_FOOL_BELIEVES.wav": {
+    "file": "RADIO_01_CLASS_ROCK/musicas/WHAT_A_FOOL_BELIEVES.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 194.827
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_01.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_01.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 7.224
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_02.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_02.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 5.525
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_03.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_03.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 6.229
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_04.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_04.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 7.568
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_05.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_05.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 8.448
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_06.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_06.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 8.165
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_07.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_07.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 12.258
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_08.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_08.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 9.876
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_09.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_09.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.755
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_10.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_10.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 10.112
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_11.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_11.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 6.341
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_12.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_12.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 11.785
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/ID_13.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/ID_13.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 9.883
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_01.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_01.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 18.525
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_02.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_02.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 24.323
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_03.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_03.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 25.959
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_04.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_04.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 25.572
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_05.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_05.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 20.473
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_06.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_06.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 32.269
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_07.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_07.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 29.858
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_08.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_08.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 24.208
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_09.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_09.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 24.187
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_10.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_10.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 25.049
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_11.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_11.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 9.974
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_12.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_12.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 20.343
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_13.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_13.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 34.038
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_14.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_14.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 13.691
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_15.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_15.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 20.144
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_16.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_16.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 18.195
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_17.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_17.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 27.795
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_18.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_18.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 21.267
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_19.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_19.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 28.605
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_20.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_20.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 26.643
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_21.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_21.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 13.205
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_22.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_22.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 24.381
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_23.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_23.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 22.077
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_24.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_24.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 23.229
+    }
+  },
+  "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_25.wav": {
+    "file": "RADIO_01_CLASS_ROCK/narracoes/MONO_SOLO_25.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 24.258
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/AGE_OF_CONSENT.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/AGE_OF_CONSENT.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 311.304
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/ALIEN_CRIME_LORD.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/ALIEN_CRIME_LORD.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 258.865
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/BABY_I_LOVE_YOU_SO.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/BABY_I_LOVE_YOU_SO.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 399.392
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/CYCLE.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/CYCLE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 187.829
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/DEEP.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/DEEP.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 228.246
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/DOWN_ON_THE_STREET.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/DOWN_ON_THE_STREET.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 222.584
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/DRAB_MEASURE.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/DRAB_MEASURE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 271.991
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/EISBAR.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/EISBAR.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 260.59
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/FACELESS.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/FACELESS.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 137.824
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/FOUR_SHADOWS.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/FOUR_SHADOWS.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 215.347
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/GIRLS_AND_BOYS.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/GIRLS_AND_BOYS.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 277.333
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/GOING_BACK_TO_CALI.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/GOING_BACK_TO_CALI.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 250.24
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/HARD_TO_EXPLAIN.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/HARD_TO_EXPLAIN.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 224.025
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/HUMAN_FLY.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/HUMAN_FLY.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 131
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/ITS_YOURS.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/ITS_YOURS.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 260.293
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/LFT_ME_LONELY.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/LFT_ME_LONELY.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 318.733
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/LIEBE_AUF_DEN_ERSTEN_BLICK.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/LIEBE_AUF_DEN_ERSTEN_BLICK.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 233.167
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/MANY_TEARS_AGO.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/MANY_TEARS_AGO.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 114.12
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/NIGHTCLUBBING.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/NIGHTCLUBBING.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 246.624
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/ON_THE_LEVEL.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/ON_THE_LEVEL.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 217.019
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/POOL_SONG.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/POOL_SONG.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 197
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/RAGA_MADHUVANTI.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/RAGA_MADHUVANTI.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 299.25
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/ROCK_AND_ROLL.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/ROCK_AND_ROLL.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 279.895
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/SHES_LOST_CONTROL.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/SHES_LOST_CONTROL.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 228.872
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/SO_IT_GOES.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/SO_IT_GOES.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 147.924
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/TAINTED_LOVE.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/TAINTED_LOVE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 125.091
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/TAKE_DOWN_THE_HOUSE.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/TAKE_DOWN_THE_HOUSE.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 187.437
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/THE_ADULTS_ARE_TALKING.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/THE_ADULTS_ARE_TALKING.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 308.696
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/THIS_IS_THE_DAY.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/THIS_IS_THE_DAY.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 280
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/TIME_BOMB.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/TIME_BOMB.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 128.64
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/TOO_MUCH_MONEY.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/TOO_MUCH_MONEY.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 134.966
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/TV_CASUALTY.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/TV_CASUALTY.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 145.6
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/TYPICAL_GIRLS.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/TYPICAL_GIRLS.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "abrupt",
+    "_debug": {
+      "duration": 220.943
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/musicas/WHERE_NO_EAGLES_FLY.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/musicas/WHERE_NO_EAGLES_FLY.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "fade-out",
+    "_debug": {
+      "duration": 223.285
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_01.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_01.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 6.986
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_02.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_02.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.641
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_03.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_03.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.181
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_04.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_04.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.59
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_05.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_05.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 5.603
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_06.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_06.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.512
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_07.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_07.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.318
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_08.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_08.wav",
+    "fusionStartType": "none",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 4.478
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_09.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_09.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 6.557
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_10.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_10.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 4.582
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_11.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_11.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 6.505
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_12.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_12.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 7.857
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_13.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_13.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.716
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_14.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_14.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 6.533
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_15.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_15.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.435
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_16.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_16.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.776
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_17.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_17.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 5.271
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_18.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_18.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 8.685
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_19.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_19.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 4.23
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_20.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_20.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 2.974
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_21.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_21.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 5.535
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_22.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_22.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 6.3
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_23.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_23.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 4.522
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_24.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_24.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 4.612
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_25.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_25.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 4.095
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_26.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_26.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 8.415
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_27.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_27.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 6.615
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_28.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_28.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 5.13
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_29.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_29.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 7.763
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_30.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_30.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 19.62
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_31.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_31.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 14.018
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_32.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_32.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 19.755
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_33.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_33.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 15.705
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_34.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_34.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 18.09
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_35.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_35.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 19.755
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/ID_36.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/ID_36.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 15.525
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD001_AQUARIUS.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD001_AQUARIUS.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 50.593
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD002_ARIES.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD002_ARIES.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 54.172
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD003_CANCER.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD003_CANCER.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 55.713
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD004_CAPRICORN.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD004_CAPRICORN.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 42.807
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD005_GEMINI.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD005_GEMINI.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 54.5
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD006_LEO.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD006_LEO.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 50.575
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD007_LIBRA.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD007_LIBRA.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 46.813
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD008_PISCES.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD008_PISCES.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 51.151
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD009_SAGITARIUS.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD009_SAGITARIUS.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 52.445
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD010_SCORPIO.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD010_SCORPIO.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 55.767
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD011_TAURUS.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD011_TAURUS.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 53.164
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD012_VIRGO.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/KULT_AD012_VIRGO.wav",
+    "fusionStartType": "normal",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 48.512
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/MONO_SOLO_01.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/MONO_SOLO_01.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 22.747
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/MONO_SOLO_02.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/MONO_SOLO_02.wav",
+    "fusionStartType": "none",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 118.904
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/MONO_SOLO_03.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/MONO_SOLO_03.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "possible",
+    "_debug": {
+      "duration": 35.115
+    }
+  },
+  "RADIO_34_DLC_HEI4_KULT/narracoes/MONO_SOLO_04.wav": {
+    "file": "RADIO_34_DLC_HEI4_KULT/narracoes/MONO_SOLO_04.wav",
+    "fusionStartType": "possible",
+    "fusionEndType": "normal",
+    "_debug": {
+      "duration": 38.7
+    }
+  }
+}
