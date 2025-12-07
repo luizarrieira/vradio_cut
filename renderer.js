@@ -1,4 +1,4 @@
-// renderer.js — Pipeline Robusto (Preload Background + Timeline Precisa)
+// renderer.js — Correção: Detecção de Narrações e Pipeline Fluido
 import { stationsData } from './stations.js';
 import { getNewsSubsetForDay } from './adv_news_list.js';
 
@@ -21,8 +21,8 @@ const SAMPLE_RATE = 48000;
 
 // Configuração de Ducking (Voz sobre música)
 const DUCK_DOWN_TIME = 0.2; 
-const DUCK_UP_TIME = 0.5;   
-const DUCK_RELEASE_DELAY_MS = 100; 
+const DUCK_UP_TIME = 0.2;   
+const DUCK_RELEASE_DELAY_MS = 10; 
 
 const STATIC_FILE = '0x0DE98BE6.wav';
 
@@ -30,7 +30,7 @@ let audioMetadata = {};
 let duracoesNarracoes = {}; 
 let staticBuffer = null;
 let isSystemStarted = false;
-let currentActiveChannelId = 'rock'; // Canal padrão inicial
+let currentActiveChannelId = 'rock'; 
 
 /* =================== Utils Gerais =================== */
 function rand(arr){ return arr && arr.length ? arr[Math.floor(Math.random()*arr.length)] : null; }
@@ -65,14 +65,21 @@ async function loadGlobalData() {
         `RADIO_01_CLASS_ROCK/duracoes_narracoes.json`,
         `RADIO_34_DLC_HEI4_KULT/duracoes_narracoes.json`
     ];
+    
+    let loadedCount = 0;
     for(const p of pathsToTry) {
       try {
         const r = await fetch(p);
         if(r.ok) {
           const d = await r.json();
           Object.assign(duracoesNarracoes, d);
+          loadedCount++;
         }
       } catch(e) {}
+    }
+    
+    if (loadedCount === 0) {
+        console.warn("ALERTA: Nenhum arquivo duracoes_narracoes.json carregado. Narrações podem não funcionar.");
     }
     
     try {
@@ -98,7 +105,7 @@ async function getAudioBuffer(filePath) {
     return await audioCtx.decodeAudioData(ab);
   } catch (e) {
     console.warn(`Falha ao carregar ${filePath}`, e);
-    return null; // Retorna null para não quebrar o Promise.all
+    return null; 
   }
 }
 
@@ -117,12 +124,11 @@ function getAudioType(pathStr) {
 }
 
 function getFusionTime(pathA, pathB) {
-  if (!pathA) return 0.0; // Primeiro arquivo da rádio
+  if (!pathA) return 0.0;
 
   const typeA = getAudioType(pathA);
   const typeB = getAudioType(pathB);
 
-  // Regra base: Notícias tem fusão rápida
   if (typeA === 'news' || typeB === 'news') return 0.2;
 
   const metaA = audioMetadata[pathA] || { fusionEndType: pathA.includes('/musicas/') ? 'abrupt' : 'normal' };
@@ -131,7 +137,6 @@ function getFusionTime(pathA, pathB) {
   const endTypeA = metaA.fusionEndType;
   const startTypeB = metaB.fusionStartType;
 
-  // Regras específicas da Kult FM
   if (typeA === 'music' && pathA.includes('RADIO_34_DLC_HEI4_KULT')) {
       const rankA = (endTypeA === 'fade-out') ? 'normal' : 'possible';
       const rankB = startTypeB;
@@ -154,7 +159,6 @@ function getFusionTime(pathA, pathB) {
   }
   if (typeA === 'adv' && typeB === 'id') return (endTypeA === 'normal' && startTypeB === 'normal') ? 0.5 : 0.2;
   
-  // Regra geral para falas
   if (typeA === 'solo' || typeA === 'id' || typeA === 'id_solo_general') {
     return (endTypeA === 'normal' && startTypeB === 'normal') ? 1.0 : 0.5;
   }
@@ -168,7 +172,6 @@ class RadioStation {
     this.name = name;
     this.basePath = basePath;
     
-    // Configuração imutável
     this.files = {
       musicas: config.musicas || [],
       id: config.ids || [],
@@ -184,16 +187,12 @@ class RadioStation {
       adkult: config.adkult || []
     };
 
-    // Estado da Rádio
     this.started = false;
-    this.currentFollowupHint = null; // 'toad', 'tonews', etc.
-    this.lastTrackPath = null;       // Último arquivo que TOCOU (para fusão)
-    this.timelineEndTime = 0;        // Ponteiro do tempo no AudioContext
-    
-    // Filas (Queues) para aleatoriedade sem repetição imediata
+    this.currentFollowupHint = null;
+    this.lastTrackPath = null;
+    this.timelineEndTime = 0;
     this.queues = { music: [], id: [], adv: [] };
 
-    // Canais de Áudio
     this.masterGain = audioCtx.createGain();
     this.masterGain.connect(audioCtx.destination);
     this.masterGain.gain.value = (id === currentActiveChannelId) ? 1.0 : 0.0;
@@ -211,9 +210,7 @@ class RadioStation {
 
   log(...args) { log(this.id.toUpperCase(), ...args); }
 
-  // --- Gerenciamento de Filas ---
   resetQueues() {
-    // Embaralha array (Fisher-Yates)
     const shuffle = (arr) => { const a = arr.slice(); for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]];} return a; };
     this.queues.music = shuffle(this.files.musicas);
     this.queues.id = shuffle(this.files.id);
@@ -227,7 +224,6 @@ class RadioStation {
     return this.queues.adv.length ? this.queues.adv.shift() : null; 
   }
 
-  // --- Ducking System ---
   onNarrationStart() {
     this.activeNarrations++;
     if(this.duckTimeout) { clearTimeout(this.duckTimeout); this.duckTimeout = null; }
@@ -251,15 +247,27 @@ class RadioStation {
     }
   }
 
-  // --- Seleção de Intro/Outro ---
+  // --- CORREÇÃO IMPORTANTE AQUI: Busca de Duração Robusta ---
   filterCandidates(pool, zoneLenSamples) {
     if(!pool || !pool.length) return [];
+    
     const out = [];
     for(const p of pool) {
-      const fname = p.split('/').pop();
-      const dSamples = duracoesNarracoes[fname];
-      if(typeof dSamples === 'number' && dSamples <= zoneLenSamples) {
-          out.push({path:p, dur:dSamples});
+      // Tenta encontrar a duração no JSON usando várias chaves possíveis
+      const fullPath = p; // ex: RADIO_XX/narracoes/FILE.wav
+      const fileName = p.split('/').pop(); // ex: FILE.wav
+      const fileNameNoExt = fileName.replace('.wav', '').replace('.mp3', ''); // ex: FILE
+      
+      const dSamples = duracoesNarracoes[fullPath] || duracoesNarracoes[fileName] || duracoesNarracoes[fileNameNoExt];
+      
+      if(typeof dSamples === 'number') {
+        // Se couber na zona, adiciona
+        if(dSamples <= zoneLenSamples) {
+            out.push({path:p, dur:dSamples});
+        }
+      } else {
+        // Opcional: Descomente para debugar se suas chaves não baterem
+        // console.warn('Duração não encontrada para:', p);
       }
     }
     return out;
@@ -289,7 +297,6 @@ class RadioStation {
         else if(h>=17 && h<=21) pool = this.files.timePools.evening || [];
       }
     } else {
-      // Final
       if (this.id === 'kult') {
           if(r < 0.7) pool = this.files.narracoesGeneral;
       } else {
@@ -308,12 +315,10 @@ class RadioStation {
     return { ...chosen, subgroup };
   }
 
-  // --- FASE 1: PRELOAD (Decide e Baixa) ---
-  // Não calcula tempo, apenas define a sequência e garante que os buffers estão na memória
+  // --- FASE 1: PRELOAD ---
   async preloadSequenceJob() {
     let seqType;
     
-    // Lógica de Prioridade de Sequência (Restauração da lógica original)
     if (this.id === 'kult') {
         seqType = weightedPick([
             {k:'idkult+musica', w:4}, {k:'musica', w:4}, {k:'adkult+idkult+musica', w:3}, {k:'djsolo+musica', w:2}, {k:'adkult+djsolo+musica', w:1}
@@ -322,24 +327,15 @@ class RadioStation {
         seqType = weightedPick([
             {k:'djsolo+musica', w:4}, {k:'musica', w:4}, {k:'id+musica', w:3}, {k:'adv+id+musica', w:2}, {k:'djsolo+id+musica', w:1}
         ]);
-        // Sobrescreve se houve dica da música anterior
         if(this.currentFollowupHint === 'toad') seqType = 'adv+id+musica';
         else if(this.currentFollowupHint === 'tonews') seqType = 'news+id+musica';
     }
 
-    const job = { 
-        type: seqType, 
-        items: [], 
-        endtoTrigger: null 
-    };
-
-    // Monta a lista de itens
+    const job = { type: seqType, items: [], endtoTrigger: null };
     const parts = seqType.split('+');
     
-    // Função auxiliar para resolver o caminho e metadados de cada tipo
     const resolveItem = async (type) => {
-      if(type === 'djsolo') type = 'solo'; // Normaliza
-
+      if(type === 'djsolo') type = 'solo';
       let itemData = { type, path: null, buffer: null };
 
       if(type === 'id') itemData.path = await this.nextID();
@@ -355,7 +351,6 @@ class RadioStation {
       else if(type === 'news') { 
         const today = new Date().getDate();
         const validNewsNames = getNewsSubsetForDay(today);
-        // Filtra lista
         const available = this.files.news.filter(p => validNewsNames.includes(getBasename(p, '.wav')));
         itemData.path = rand(available); 
       }
@@ -370,55 +365,39 @@ class RadioStation {
         }
       }
 
-      if(itemData.path) {
-          job.items.push(itemData);
-      }
+      if(itemData.path) job.items.push(itemData);
     };
 
     for(const p of parts) await resolveItem(p);
 
-    // Dispara Downloads em Paralelo
     const promises = [];
     for (const item of job.items) {
-        // Áudio principal
         promises.push(getAudioBuffer(item.path).then(b => item.buffer = b));
-        
-        // Sobreposições (Intro/Final de música)
         if(item.introObj) promises.push(getAudioBuffer(item.introObj.path).then(b => item.introBuffer = b));
         if(item.finalObj) promises.push(getAudioBuffer(item.finalObj.path).then(b => item.finalBuffer = b));
     }
 
     await Promise.all(promises);
-    // Limpa itens que falharam o download (buffer null)
     job.items = job.items.filter(i => i.buffer !== null);
-    
     return job;
   }
 
-  // --- FASE 2: AGENDAMENTO (Timeline) ---
-  // Calcula os tempos exatos baseados na fusão e agenda no AudioContext
-  // Retorna o tempo absoluto de fim desta sequência
+  // --- FASE 2: AGENDAMENTO ---
   scheduleSequence(job) {
     if(!job || !job.items.length) return this.timelineEndTime;
 
-    // Se é a primeira vez rodando, sincroniza com o relógio atual
     if(this.timelineEndTime < audioCtx.currentTime) {
         this.timelineEndTime = audioCtx.currentTime + 0.1; 
-        this.lastTrackPath = null; // Reseta fusão inicial
+        this.lastTrackPath = null;
     }
 
     for(const item of job.items) {
-        // 1. Calcula fusão com o arquivo ANTERIOR (que pode ser da sequência passada)
         const fusionTime = getFusionTime(this.lastTrackPath, item.path);
-        
-        // 2. Define onde este arquivo começa
         const startTime = this.timelineEndTime - fusionTime;
         
-        // 3. Atualiza o ponteiro global para o fim deste arquivo
         this.timelineEndTime = startTime + item.buffer.duration;
         this.lastTrackPath = item.path;
 
-        // 4. Agenda visual (capa)
         if(item.type === 'music' && this.id === currentActiveChannelId) {
             const delayMs = Math.max(0, (startTime - audioCtx.currentTime) * 1000);
             setTimeout(() => {
@@ -429,10 +408,8 @@ class RadioStation {
             }, delayMs);
         }
 
-        // 5. Toca o Buffer Principal
         this.playBuffer(item.buffer, startTime, item.type);
 
-        // 6. Agenda Intros/Finais (se for música)
         if(item.type === 'music') {
             if(item.introObj && item.introBuffer) {
                 this.scheduleOverlay(item.introBuffer, startTime, item.musicObj.introStart, item.musicObj.introEnd);
@@ -443,34 +420,27 @@ class RadioStation {
         }
     }
     
-    // Atualiza a "dica" para a próxima geração (ex: próxima será News)
     this.currentFollowupHint = job.endtoTrigger;
-    
     return this.timelineEndTime;
   }
 
   playBuffer(buffer, time, type) {
     const src = audioCtx.createBufferSource();
     src.buffer = buffer;
-    
-    // Roteamento
     const gainNode = (type === 'music') ? this.musicGain : this.narrationGain;
     
-    // Exceção: Comerciais/News saem pelo canal de narração (para poderem dar ducking se calhar)
     if (type === 'adv' || type === 'news' || type === 'adkult') {
         src.connect(this.narrationGain);
     } else {
         src.connect(gainNode);
     }
-    
     src.start(time);
   }
 
   scheduleOverlay(buffer, musicAbsStart, zoneStartSamples, zoneEndSamples) {
       const len = buffer.length;
-      // Tenta alinhar ao final da zona (Back-timed)
       let offset = zoneEndSamples - len;
-      if (offset < zoneStartSamples) offset = zoneStartSamples; // Se não couber, encosta no início
+      if (offset < zoneStartSamples) offset = zoneStartSamples; 
       
       const absStart = musicAbsStart + samplesToSeconds(offset);
       
@@ -478,9 +448,9 @@ class RadioStation {
       src.buffer = buffer;
       src.connect(this.narrationGain);
       
-      // Agenda Ducking (baixar música)
       const now = audioCtx.currentTime;
-      const duckStart = Math.max(0, (absStart - now)*1000 - 50); // 50ms antes
+      // Garante que o ducking só agende se for no futuro ou agora, nunca negativo
+      const duckStart = Math.max(0, (absStart - now)*1000 - 50); 
       const durMs = buffer.duration * 1000;
       
       setTimeout(() => this.onNarrationStart(), duckStart);
@@ -489,49 +459,34 @@ class RadioStation {
       src.start(absStart);
   }
 
-  // --- LOOP PRINCIPAL (Run) ---
   async run() {
     this.started = true;
     this.resetQueues();
-    
-    // Garante ponto de partida
     this.timelineEndTime = audioCtx.currentTime + 0.1;
-    this.log("Iniciando carregamento inicial...");
 
-    // 1. Carga Inicial: Baixa a primeira sequência e espera
     let currentJob = await this.preloadSequenceJob();
 
     while(this.started) {
         try {
-            // 2. Toca a sequência atual (Agenda no AudioContext)
-            // Retorna o tempo futuro onde essa sequência vai terminar
             const sequenceFinishTime = this.scheduleSequence(currentJob);
 
-            // 3. IMEDIATAMENTE dispara o download da PRÓXIMA (em paralelo com o som tocando)
             const nextJobPromise = this.preloadSequenceJob();
 
-            // 4. Calcula espera inteligente
-            // Acorda 4 segundos antes da música acabar para fazer a troca suave interna da lógica
             const now = audioCtx.currentTime;
             const waitSeconds = sequenceFinishTime - now - 4.0;
             
-            if(waitSeconds > 0) {
-                await sleep(waitSeconds * 1000);
-            }
+            if(waitSeconds > 0) await sleep(waitSeconds * 1000);
 
-            // 5. Finaliza o download da próxima (se ainda não acabou)
             const nextJob = await nextJobPromise;
             
-            if(nextJob) {
-                currentJob = nextJob; // Passa o bastão
-            } else {
-                // Se download falhou, tenta de novo rápido
+            if(nextJob) currentJob = nextJob;
+            else {
                 await sleep(500);
                 currentJob = await this.preloadSequenceJob();
             }
 
         } catch(e) {
-            console.error(`Erro no loop da rádio ${this.name}`, e);
+            console.error(`Erro rádio ${this.name}`, e);
             await sleep(5000);
         }
     }
@@ -547,10 +502,9 @@ let stationKult = null;
 async function switchChannel(newId) {
   if(newId === currentActiveChannelId) return;
   
-  log('SYSTEM', `Mudando canal: ${currentActiveChannelId} -> ${newId}`);
+  log('SYSTEM', `Mudando: ${currentActiveChannelId} -> ${newId}`);
   
   let oldStation, newStation;
-  // Mapeia objetos
   if(currentActiveChannelId === 'rock') oldStation = stationRock;
   else if(currentActiveChannelId === 'silverlake') oldStation = stationSilver;
   else if(currentActiveChannelId === 'class_rock') oldStation = stationClassRock;
@@ -563,49 +517,36 @@ async function switchChannel(newId) {
   
   const now = audioCtx.currentTime;
   
-  // Crossfade Rápido: Desce o volume da antiga
   if(oldStation) {
       oldStation.masterGain.gain.cancelScheduledValues(now);
-      oldStation.masterGain.gain.setTargetAtTime(0, now, 0.2); // Fade out rápido (0.2s)
+      oldStation.masterGain.gain.setTargetAtTime(0, now, 0.2);
   }
   
   currentActiveChannelId = newId;
-  
-  // Atualiza UI
   if(window.updateRadioUI) window.updateRadioUI(newId);
   
-  // Toca Chiado de Troca (Estática)
   if(staticBuffer) {
     const src = audioCtx.createBufferSource();
     src.buffer = staticBuffer;
     const staticGain = audioCtx.createGain();
     staticGain.connect(audioCtx.destination);
     src.connect(staticGain);
-    
     src.start(now);
-    // Envelope de volume da estática: Sobe rápido, desce devagar
     staticGain.gain.setValueAtTime(0, now);
     staticGain.gain.linearRampToValueAtTime(0.6, now + 0.1); 
     staticGain.gain.exponentialRampToValueAtTime(0.01, now + 1.5);
   }
 
-  // Sobe o volume da nova (Fade in)
-  // Pequeno delay para a estática aparecer
   if(newStation) {
       newStation.masterGain.gain.cancelScheduledValues(now);
       newStation.masterGain.gain.setValueAtTime(0, now);
       newStation.masterGain.gain.linearRampToValueAtTime(1, now + 1.0);
 
-      // Atualiza capa imediatamente se estiver tocando música
-      // Tenta achar a música atual baseada no lastTrackPath da estação
       const currentTrack = newStation.files.musicas.find(m => 
           newStation.lastTrackPath && newStation.lastTrackPath.includes(m.arquivo.split('/').pop())
       );
-      
       const el = document.getElementById('capa');
-      if(el) {
-          el.src = currentTrack ? currentTrack.capa : `${newStation.basePath}/capas/default.jpg`;
-      }
+      if(el) el.src = currentTrack ? currentTrack.capa : `${newStation.basePath}/capas/default.jpg`;
   }
 }
 
@@ -617,23 +558,19 @@ async function startSystem() {
   
   await loadGlobalData();
   
-  // Instancia as rádios
   stationRock = new RadioStation('rock', 'Vinewood Boulevard Radio', 'RADIO_18_90S_ROCK', stationsData.getRock());
   stationSilver = new RadioStation('silverlake', 'Radio Mirror Park', 'RADIO_16_SILVERLAKE', stationsData.getSilver());
   stationClassRock = new RadioStation('class_rock', 'Los Santos Rock Radio', 'RADIO_01_CLASS_ROCK', stationsData.getClassRock());
   stationKult = new RadioStation('kult', 'Kult FM 99.1', 'RADIO_34_DLC_HEI4_KULT', stationsData.getKult());
   
-  // Inicia todas em paralelo (sem await para não bloquear uma à outra)
-  // Cada uma gerencia seu próprio loop e timeline
   stationRock.run().catch(e => console.error('Rock error', e));
   stationSilver.run().catch(e => console.error('Silver error', e));
   stationClassRock.run().catch(e => console.error('ClassRock error', e));
   stationKult.run().catch(e => console.error('Kult error', e));
   
-  log('SYSTEM', 'Todas as rádios iniciadas em paralelo.');
+  log('SYSTEM', 'SISTEMA INICIADO.');
 }
 
-// Exposição global para o HTML
 window.__RADIO = {
   startRadio: startSystem,
   switchChannel: switchChannel
