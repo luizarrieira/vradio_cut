@@ -1,13 +1,15 @@
-// renderer.js — Correção: Detecção de Narrações e Pipeline Fluido
+// renderer.js — Versão Web (Sem Node/Electron)
 import { stationsData } from './stations.js';
 import { getNewsSubsetForDay } from './adv_news_list.js';
 
-/* =================== Utils de Arquivo =================== */
+/* =================== Utils de Arquivo (Substitutos do Node) =================== */
+// Simula path.basename do Node
 function getBasename(pathStr, ext) {
   let name = pathStr.split('/').pop();
   if (ext && name.endsWith(ext)) {
     name = name.slice(0, -ext.length);
   } else if (ext === undefined && name.includes('.')) {
+    // Se não passar extensão, remove a última
     name = name.replace(/\.[^/.]+$/, "");
   }
   return name;
@@ -19,9 +21,9 @@ const audioCtx = new AudioContextClass();
 
 const SAMPLE_RATE = 48000;
 
-// Configuração de Ducking (Voz sobre música)
-const DUCK_DOWN_TIME = 0.2; 
-const DUCK_UP_TIME = 0.2;   
+// Configuração de Ducking
+const DUCK_DOWN_TIME = 0.02; 
+const DUCK_UP_TIME = 0.02;   
 const DUCK_RELEASE_DELAY_MS = 10; 
 
 const STATIC_FILE = '0x0DE98BE6.wav';
@@ -32,7 +34,8 @@ let staticBuffer = null;
 let isSystemStarted = false;
 let currentActiveChannelId = 'rock'; 
 
-/* =================== Utils Gerais =================== */
+/* =================== Utils =================== */
+function pad(n, len=2){ return String(n).padStart(len, '0'); }
 function rand(arr){ return arr && arr.length ? arr[Math.floor(Math.random()*arr.length)] : null; }
 function chance(p){ return Math.random() < p; }
 function sleep(ms){ return new Promise(r=>setTimeout(r, ms)); }
@@ -52,6 +55,7 @@ function samplesToSeconds(samples) {
 /* =================== Global Data Loaders =================== */
 async function loadGlobalData() {
   try {
+    // Nota: Estes arquivos .json devem estar na raiz do repositório no GitHub
     const metaPath = 'audio_metadata.json';
     try {
         const metaResp = await fetch(metaPath);
@@ -65,21 +69,14 @@ async function loadGlobalData() {
         `RADIO_01_CLASS_ROCK/duracoes_narracoes.json`,
         `RADIO_34_DLC_HEI4_KULT/duracoes_narracoes.json`
     ];
-    
-    let loadedCount = 0;
     for(const p of pathsToTry) {
       try {
         const r = await fetch(p);
         if(r.ok) {
           const d = await r.json();
           Object.assign(duracoesNarracoes, d);
-          loadedCount++;
         }
       } catch(e) {}
-    }
-    
-    if (loadedCount === 0) {
-        console.warn("ALERTA: Nenhum arquivo duracoes_narracoes.json carregado. Narrações podem não funcionar.");
     }
     
     try {
@@ -90,13 +87,12 @@ async function loadGlobalData() {
         }
     } catch(e) { console.warn("Chiado estático não encontrado"); }
 
-    log('SYSTEM', 'Dados globais carregados.');
+    log('SYSTEM', 'Dados globais carregados (Web Version).');
   } catch(e) {
     console.error('Erro carregando dados globais:', e);
   }
 }
 
-// Helper para baixar e decodificar
 async function getAudioBuffer(filePath) {
   try {
     const resp = await fetch(filePath);
@@ -105,16 +101,18 @@ async function getAudioBuffer(filePath) {
     return await audioCtx.decodeAudioData(ab);
   } catch (e) {
     console.warn(`Falha ao carregar ${filePath}`, e);
-    return null; 
+    throw e;
   }
 }
 
-/* =================== Lógica de Fusão =================== */
+/* =================== Fusion Logic =================== */
 function getAudioType(pathStr) {
   if (!pathStr) return 'none';
+  
   if (pathStr.includes('KULT_AD')) return 'adkult';
   if (pathStr.includes('ID_30') || pathStr.includes('ID_31') || pathStr.includes('ID_32') || pathStr.includes('ID_33') || pathStr.includes('ID_34') || pathStr.includes('ID_35') || pathStr.includes('ID_36')) return 'idlong'; 
   if (pathStr.includes('RADIO_34_DLC_HEI4_KULT') && pathStr.includes('ID_')) return 'idshort';
+
   if (pathStr.includes('/news/')) return 'news';
   if (pathStr.includes('/adv/')) return 'adv';
   if (pathStr.includes('/musicas/')) return 'music';
@@ -124,7 +122,7 @@ function getAudioType(pathStr) {
 }
 
 function getFusionTime(pathA, pathB) {
-  if (!pathA) return 0.0;
+  if (pathA === null) return 0.0;
 
   const typeA = getAudioType(pathA);
   const typeB = getAudioType(pathB);
@@ -158,7 +156,6 @@ function getFusionTime(pathA, pathB) {
     return 0.2; 
   }
   if (typeA === 'adv' && typeB === 'id') return (endTypeA === 'normal' && startTypeB === 'normal') ? 0.5 : 0.2;
-  
   if (typeA === 'solo' || typeA === 'id' || typeA === 'id_solo_general') {
     return (endTypeA === 'normal' && startTypeB === 'normal') ? 1.0 : 0.5;
   }
@@ -172,6 +169,7 @@ class RadioStation {
     this.name = name;
     this.basePath = basePath;
     
+    // Config agora vem direto do objeto importado, sem fs
     this.files = {
       musicas: config.musicas || [],
       id: config.ids || [],
@@ -188,9 +186,12 @@ class RadioStation {
     };
 
     this.started = false;
+    this.isPreloading = false;
+    this.nextJob = null;
     this.currentFollowupHint = null;
     this.lastTrackPath = null;
     this.timelineEndTime = 0;
+    
     this.queues = { music: [], id: [], adv: [] };
 
     this.masterGain = audioCtx.createGain();
@@ -205,7 +206,8 @@ class RadioStation {
 
     this.activeNarrations = 0;
     this.duckTimeout = null;
-    this.duckTargetVolume = (this.id === 'kult') ? 0.5 : 0.3; 
+    
+    this.duckTargetVolume = (this.id === 'kult') ? 0.5 : 0.4;
   }
 
   log(...args) { log(this.id.toUpperCase(), ...args); }
@@ -227,8 +229,8 @@ class RadioStation {
   onNarrationStart() {
     this.activeNarrations++;
     if(this.duckTimeout) { clearTimeout(this.duckTimeout); this.duckTimeout = null; }
-    
     const now = audioCtx.currentTime;
+    
     this.musicGain.gain.cancelScheduledValues(now);
     this.musicGain.gain.setValueAtTime(this.musicGain.gain.value, now);
     this.musicGain.gain.linearRampToValueAtTime(this.duckTargetVolume, now + DUCK_DOWN_TIME);
@@ -247,27 +249,14 @@ class RadioStation {
     }
   }
 
-  // --- CORREÇÃO IMPORTANTE AQUI: Busca de Duração Robusta ---
   filterCandidates(pool, zoneLenSamples) {
     if(!pool || !pool.length) return [];
-    
     const out = [];
     for(const p of pool) {
-      // Tenta encontrar a duração no JSON usando várias chaves possíveis
-      const fullPath = p; // ex: RADIO_XX/narracoes/FILE.wav
-      const fileName = p.split('/').pop(); // ex: FILE.wav
-      const fileNameNoExt = fileName.replace('.wav', '').replace('.mp3', ''); // ex: FILE
-      
-      const dSamples = duracoesNarracoes[fullPath] || duracoesNarracoes[fileName] || duracoesNarracoes[fileNameNoExt];
-      
-      if(typeof dSamples === 'number') {
-        // Se couber na zona, adiciona
-        if(dSamples <= zoneLenSamples) {
-            out.push({path:p, dur:dSamples});
-        }
-      } else {
-        // Opcional: Descomente para debugar se suas chaves não baterem
-        // console.warn('Duração não encontrada para:', p);
+      const fname = p.split('/').pop();
+      const dSamples = duracoesNarracoes[fname];
+      if(typeof dSamples === 'number' && dSamples <= zoneLenSamples) {
+          out.push({path:p, dur:dSamples});
       }
     }
     return out;
@@ -284,6 +273,7 @@ class RadioStation {
     if(!chance(chanceThreshold)) return null;
 
     const zoneLenSamples = zoneEnd - zoneStart;
+    
     const r = Math.random();
     let pool = [];
     let subgroup = null;
@@ -315,10 +305,11 @@ class RadioStation {
     return { ...chosen, subgroup };
   }
 
-  // --- FASE 1: PRELOAD ---
-  async preloadSequenceJob() {
-    let seqType;
+  async prepareNextSequence() {
+    if(this.isPreloading) return;
+    this.isPreloading = true;
     
+    let seqType;
     if (this.id === 'kult') {
         seqType = weightedPick([
             {k:'idkult+musica', w:4}, {k:'musica', w:4}, {k:'adkult+idkult+musica', w:3}, {k:'djsolo+musica', w:2}, {k:'adkult+djsolo+musica', w:1}
@@ -332,168 +323,195 @@ class RadioStation {
     }
 
     const job = { type: seqType, items: [], endtoTrigger: null };
-    const parts = seqType.split('+');
+    const promises = [];
     
-    const resolveItem = async (type) => {
-      if(type === 'djsolo') type = 'solo';
-      let itemData = { type, path: null, buffer: null };
-
-      if(type === 'id') itemData.path = await this.nextID();
-      else if(type === 'adv') itemData.path = await this.nextAdv();
-      else if(type === 'solo') itemData.path = rand(this.files.solo);
-      else if(type === 'idkult') {
-          const isLong = chance(0.7);
-          itemData.path = rand(isLong ? this.files.idlong : this.files.idshort);
-      }
-      else if(type === 'adkult') {
-          itemData.path = rand(this.files.adkult);
-      }
-      else if(type === 'news') { 
+    const add = async (type) => {
+      if(type === 'id') { const i = await this.nextID(); if(i) job.items.push({path:i, type:'id'}); }
+      if(type === 'adv') { const a = await this.nextAdv(); if(a) job.items.push({path:a, type:'adv'}); }
+      if(type === 'solo') { const s = rand(this.files.solo); if(s) job.items.push({path:s, type:'solo'}); }
+      
+      if(type === 'news') { 
         const today = new Date().getDate();
         const validNewsNames = getNewsSubsetForDay(today);
-        const available = this.files.news.filter(p => validNewsNames.includes(getBasename(p, '.wav')));
-        itemData.path = rand(available); 
+        
+        // CORREÇÃO PARA WEB: Usar o helper getBasename em vez de path.basename
+        const todaysNewsPaths = this.files.news.filter(p => {
+            const fileName = getBasename(p, '.wav'); 
+            return validNewsNames.includes(fileName);
+        });
+
+        const n = rand(todaysNewsPaths); 
+        if(n) job.items.push({path:n, type:'news'}); 
       }
-      else if(type === 'musica') {
+      
+      if(type === 'idkult') {
+          const isLong = chance(0.7);
+          const pool = isLong ? this.files.idlong : this.files.idshort;
+          const selected = rand(pool);
+          if(selected) job.items.push({path:selected, type: isLong ? 'idlong' : 'idshort'});
+      }
+      if(type === 'adkult') {
+          const a = rand(this.files.adkult);
+          if(a) job.items.push({path:a, type:'adkult'});
+      }
+
+      if(type === 'musica') {
         const m = await this.nextMusic();
         if(m) {
-            itemData.path = m.arquivo;
-            itemData.musicObj = m;
-            itemData.introObj = this.resolveNarration(m, 'intro');
-            itemData.finalObj = this.resolveNarration(m, 'final');
-            if(itemData.finalObj) job.endtoTrigger = itemData.finalObj.subgroup;
+          const intro = this.resolveNarration(m, 'intro');
+          const final = this.resolveNarration(m, 'final');
+          job.items.push({ path: m.arquivo, type:'music', musicObj: m, intro, final });
+          if(final) job.endtoTrigger = final.subgroup;
+          if(intro) promises.push(getAudioBuffer(intro.path));
+          if(final) promises.push(getAudioBuffer(final.path));
         }
       }
-
-      if(itemData.path) job.items.push(itemData);
     };
 
-    for(const p of parts) await resolveItem(p);
-
-    const promises = [];
-    for (const item of job.items) {
-        promises.push(getAudioBuffer(item.path).then(b => item.buffer = b));
-        if(item.introObj) promises.push(getAudioBuffer(item.introObj.path).then(b => item.introBuffer = b));
-        if(item.finalObj) promises.push(getAudioBuffer(item.finalObj.path).then(b => item.finalBuffer = b));
+    const parts = seqType.split('+');
+    for(const p of parts) {
+      await add(p === 'djsolo' ? 'solo' : p);
     }
 
-    await Promise.all(promises);
-    job.items = job.items.filter(i => i.buffer !== null);
-    return job;
+    job.items.forEach(i => promises.push(getAudioBuffer(i.path)));
+    
+    try {
+      await Promise.all(promises);
+      this.nextJob = job;
+      this.log(`Próxima sequência pronta: ${seqType}`);
+    } catch(e) {
+      console.error(`Erro preload ${this.id}`, e);
+    } finally {
+      this.isPreloading = false;
+    }
   }
 
-  // --- FASE 2: AGENDAMENTO ---
-  scheduleSequence(job) {
-    if(!job || !job.items.length) return this.timelineEndTime;
-
+  async executeSequence(job) {
     if(this.timelineEndTime < audioCtx.currentTime) {
-        this.timelineEndTime = audioCtx.currentTime + 0.1; 
-        this.lastTrackPath = null;
+      this.timelineEndTime = audioCtx.currentTime + 0.1;
+      this.lastTrackPath = null;
     }
 
+    const playbackPromises = [];
+
     for(const item of job.items) {
-        const fusionTime = getFusionTime(this.lastTrackPath, item.path);
-        const startTime = this.timelineEndTime - fusionTime;
+      try {
+        const buf = await getAudioBuffer(item.path);
+        const fusion = getFusionTime(this.lastTrackPath, item.path);
+        const start = this.timelineEndTime - fusion;
         
-        this.timelineEndTime = startTime + item.buffer.duration;
+        this.timelineEndTime = start + buf.duration;
         this.lastTrackPath = item.path;
 
         if(item.type === 'music' && this.id === currentActiveChannelId) {
-            const delayMs = Math.max(0, (startTime - audioCtx.currentTime) * 1000);
+            const delay = Math.max(0, (start - audioCtx.currentTime)*1000);
             setTimeout(() => {
                if(this.id === currentActiveChannelId) {
                    const el = document.getElementById('capa');
                    if(el) el.src = item.musicObj.capa;
                }
-            }, delayMs);
+            }, delay);
         }
-
-        this.playBuffer(item.buffer, startTime, item.type);
 
         if(item.type === 'music') {
-            if(item.introObj && item.introBuffer) {
-                this.scheduleOverlay(item.introBuffer, startTime, item.musicObj.introStart, item.musicObj.introEnd);
-            }
-            if(item.finalObj && item.finalBuffer) {
-                this.scheduleOverlay(item.finalBuffer, startTime, item.musicObj.finalStart, item.musicObj.finalEnd);
-            }
+          playbackPromises.push(this.playMusic(item, start));
+        } else {
+          playbackPromises.push(this.playBuffer(buf, start, item.type));
         }
+      } catch(e) { console.error(e); }
     }
-    
-    this.currentFollowupHint = job.endtoTrigger;
+
+    Promise.all(playbackPromises).catch(e => console.error(e));
     return this.timelineEndTime;
   }
 
   playBuffer(buffer, time, type) {
-    const src = audioCtx.createBufferSource();
-    src.buffer = buffer;
-    const gainNode = (type === 'music') ? this.musicGain : this.narrationGain;
-    
-    if (type === 'adv' || type === 'news' || type === 'adkult') {
-        src.connect(this.narrationGain);
-    } else {
-        src.connect(gainNode);
-    }
-    src.start(time);
-  }
-
-  scheduleOverlay(buffer, musicAbsStart, zoneStartSamples, zoneEndSamples) {
-      const len = buffer.length;
-      let offset = zoneEndSamples - len;
-      if (offset < zoneStartSamples) offset = zoneStartSamples; 
-      
-      const absStart = musicAbsStart + samplesToSeconds(offset);
-      
+    return new Promise(resolve => {
       const src = audioCtx.createBufferSource();
       src.buffer = buffer;
+      const gain = (type === 'music') ? this.musicGain : this.narrationGain;
+      if (type === 'adv' || type === 'news' || type === 'adkult') {
+          src.connect(this.narrationGain);
+      } else {
+          src.connect(gain);
+      }
+      src.onended = resolve;
+      src.start(time);
+    });
+  }
+
+  async playMusic(item, time) {
+    const src = audioCtx.createBufferSource();
+    const buf = await getAudioBuffer(item.path);
+    src.buffer = buf;
+    src.connect(this.musicGain);
+    src.start(time);
+
+    if(item.intro) {
+      this.scheduleNarration(item.intro, time, item.musicObj.introStart, item.musicObj.introEnd);
+    }
+    if(item.final) {
+      this.scheduleNarration(item.final, time, item.musicObj.finalStart, item.musicObj.finalEnd);
+    }
+    return new Promise(r => src.onended = r);
+  }
+
+  async scheduleNarration(narr, musicStart, zoneStart, zoneEnd) {
+    try {
+      const buf = await getAudioBuffer(narr.path);
+      const narrLengthSamples = buf.length;
+      let startOffsetSamples = zoneEnd - narrLengthSamples;
+      if (startOffsetSamples < zoneStart) {
+          startOffsetSamples = zoneStart;
+      }
+      const offsetSeconds = samplesToSeconds(startOffsetSamples);
+      const absStartTime = musicStart + offsetSeconds; 
+      
+      const src = audioCtx.createBufferSource();
+      src.buffer = buf;
       src.connect(this.narrationGain);
       
       const now = audioCtx.currentTime;
-      // Garante que o ducking só agende se for no futuro ou agora, nunca negativo
-      const duckStart = Math.max(0, (absStart - now)*1000 - 50); 
-      const durMs = buffer.duration * 1000;
+      const duckDelay = Math.max(0, (absStartTime - now)*1000 - 40);
+      setTimeout(() => this.onNarrationStart(), duckDelay);
       
-      setTimeout(() => this.onNarrationStart(), duckStart);
-      setTimeout(() => this.onNarrationEnd(), duckStart + durMs);
-
-      src.start(absStart);
+      src.onended = () => this.onNarrationEnd();
+      src.start(absStartTime);
+    } catch(e) { console.error('Erro ao agendar narração:', e); }
   }
 
   async run() {
     this.started = true;
     this.resetQueues();
-    this.timelineEndTime = audioCtx.currentTime + 0.1;
-
-    let currentJob = await this.preloadSequenceJob();
-
+    this.timelineEndTime = audioCtx.currentTime + 0.1; 
+    
     while(this.started) {
-        try {
-            const sequenceFinishTime = this.scheduleSequence(currentJob);
-
-            const nextJobPromise = this.preloadSequenceJob();
-
-            const now = audioCtx.currentTime;
-            const waitSeconds = sequenceFinishTime - now - 4.0;
-            
-            if(waitSeconds > 0) await sleep(waitSeconds * 1000);
-
-            const nextJob = await nextJobPromise;
-            
-            if(nextJob) currentJob = nextJob;
-            else {
-                await sleep(500);
-                currentJob = await this.preloadSequenceJob();
-            }
-
-        } catch(e) {
-            console.error(`Erro rádio ${this.name}`, e);
-            await sleep(5000);
-        }
+      try {
+        if(!this.nextJob) await this.prepareNextSequence();
+        if(!this.nextJob) { await sleep(1000); continue; }
+        
+        const job = this.nextJob;
+        this.nextJob = null;
+        this.currentFollowupHint = job.endtoTrigger;
+        
+        const jobEndTime = await this.executeSequence(job);
+        
+        this.prepareNextSequence();
+        
+        const now = audioCtx.currentTime;
+        const wakeTime = jobEndTime - 5.0;
+        const sleepMs = (wakeTime - now) * 1000;
+        if(sleepMs > 0) await sleep(sleepMs);
+        
+      } catch(e) {
+        console.error(`Erro loop ${this.name}`, e);
+        await sleep(2000);
+      }
     }
   }
 }
 
-/* =================== STARTUP & SWITCHING =================== */
+/* =================== INSTANCES & STARTUP =================== */
 let stationRock = null;
 let stationSilver = null;
 let stationClassRock = null;
@@ -502,7 +520,7 @@ let stationKult = null;
 async function switchChannel(newId) {
   if(newId === currentActiveChannelId) return;
   
-  log('SYSTEM', `Mudando: ${currentActiveChannelId} -> ${newId}`);
+  log('SYSTEM', `Trocando de ${currentActiveChannelId} para ${newId}`);
   
   let oldStation, newStation;
   if(currentActiveChannelId === 'rock') oldStation = stationRock;
@@ -517,12 +535,9 @@ async function switchChannel(newId) {
   
   const now = audioCtx.currentTime;
   
-  if(oldStation) {
-      oldStation.masterGain.gain.cancelScheduledValues(now);
-      oldStation.masterGain.gain.setTargetAtTime(0, now, 0.2);
-  }
-  
+  if(oldStation && oldStation.masterGain) oldStation.masterGain.gain.setValueAtTime(0, now);
   currentActiveChannelId = newId;
+  
   if(window.updateRadioUI) window.updateRadioUI(newId);
   
   if(staticBuffer) {
@@ -531,23 +546,17 @@ async function switchChannel(newId) {
     const staticGain = audioCtx.createGain();
     staticGain.connect(audioCtx.destination);
     src.connect(staticGain);
-    src.start(now);
-    staticGain.gain.setValueAtTime(0, now);
-    staticGain.gain.linearRampToValueAtTime(0.6, now + 0.1); 
-    staticGain.gain.exponentialRampToValueAtTime(0.01, now + 1.5);
+    src.start(now); 
+    staticGain.gain.setValueAtTime(1, now + 2.8);
+    staticGain.gain.linearRampToValueAtTime(0, now + 3.0);
   }
 
-  if(newStation) {
-      newStation.masterGain.gain.cancelScheduledValues(now);
-      newStation.masterGain.gain.setValueAtTime(0, now);
-      newStation.masterGain.gain.linearRampToValueAtTime(1, now + 1.0);
+  await sleep(2000);
+  
+  if(newStation) newStation.masterGain.gain.setValueAtTime(1, audioCtx.currentTime);
 
-      const currentTrack = newStation.files.musicas.find(m => 
-          newStation.lastTrackPath && newStation.lastTrackPath.includes(m.arquivo.split('/').pop())
-      );
-      const el = document.getElementById('capa');
-      if(el) el.src = currentTrack ? currentTrack.capa : `${newStation.basePath}/capas/default.jpg`;
-  }
+  const currentImg = newStation.files.musicas.find(m => newStation.lastTrackPath && newStation.lastTrackPath.includes(m.id))?.capa || `${newStation.basePath}/capas/default.jpg`;
+  document.getElementById('capa').src = currentImg;
 }
 
 async function startSystem() {
@@ -558,6 +567,7 @@ async function startSystem() {
   
   await loadGlobalData();
   
+  // Agora usamos 'stationsData' importado diretamente
   stationRock = new RadioStation('rock', 'Vinewood Boulevard Radio', 'RADIO_18_90S_ROCK', stationsData.getRock());
   stationSilver = new RadioStation('silverlake', 'Radio Mirror Park', 'RADIO_16_SILVERLAKE', stationsData.getSilver());
   stationClassRock = new RadioStation('class_rock', 'Los Santos Rock Radio', 'RADIO_01_CLASS_ROCK', stationsData.getClassRock());
@@ -568,10 +578,12 @@ async function startSystem() {
   stationClassRock.run().catch(e => console.error('ClassRock error', e));
   stationKult.run().catch(e => console.error('Kult error', e));
   
-  log('SYSTEM', 'SISTEMA INICIADO.');
+  log('SYSTEM', 'Sistema iniciado. 4 rádios rodando.');
 }
 
 window.__RADIO = {
   startRadio: startSystem,
   switchChannel: switchChannel
 };
+
+// Auto start logic via UI button handled in HTML
