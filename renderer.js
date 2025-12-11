@@ -22,9 +22,9 @@ const audioCtx = new AudioContextClass();
 const SAMPLE_RATE = 48000;
 
 // Configuração de Ducking
-const DUCK_DOWN_TIME = 0.05; 
-const DUCK_UP_TIME = 0.05;   
-const DUCK_RELEASE_DELAY_MS = 100; 
+const DUCK_DOWN_TIME = 0.01; 
+const DUCK_UP_TIME = 0.01;   
+const DUCK_RELEASE_DELAY_MS = 1; 
 
 const STATIC_FILE = '0x0DE98BE6.wav';
 
